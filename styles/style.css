@@ -3,7 +3,8 @@
 }
 
 body {
-  margin: 0 0.2rem;
+  margin: 0 auto;
+  max-width: 99%;
 }
 
 html {
@@ -14,7 +15,7 @@ nav {
   background-image: url("../images/mountain2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 15rem;
+  padding-bottom: 40rem;
 }
 
 .top-nav {
@@ -123,6 +124,8 @@ nav {
   align-items: center;
   color: #fff;
   padding-top: 8rem;
+  position: absolute;
+  top: 4rem;
 }
 
 .top {
