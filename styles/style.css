@@ -30,15 +30,16 @@ nav {
   border-radius: 0.5rem;
 }
 
-
-.apple, .menu-div {
+.apple,
+.menu-div {
   border: 0.05rem solid #666;
   color: #fff;
   width: 10rem;
 }
 
- .search {
+.search {
   width: 12rem;
+  position: relative;
 }
 
 .menu-div p {
@@ -74,11 +75,11 @@ nav {
 .search input {
   width: 90%;
   position: absolute;
-  background:inherit;
+  background: inherit;
   height: 2.5rem;
   top: 0.8rem;
   left: 1.2rem;
-  border-radius:1rem;
+  border-radius: 1rem;
   border-color: #696969;
 }
 
@@ -92,18 +93,13 @@ nav {
 
 .menu-div:hover {
   cursor: pointer;
-  background: radial-gradient(circle at center,  #282C35, #696969);
+  background: radial-gradient(circle at center, #282c35, #696969);
 }
 
 .apple:hover {
   cursor: pointer;
-  background: radial-gradient(circle at center,  #282C35, #696969);
+  background: radial-gradient(circle at center, #282c35, #696969);
 }
-
-.search {
-  position: relative;
-}
-
 
 .apple img {
   position: relative;
@@ -115,7 +111,6 @@ nav {
 .search input:focus {
   background: #fff;
 }
-
 
 .search div:hover {
   cursor: text;
@@ -160,9 +155,8 @@ nav {
   text-decoration: underline;
 }
 
-
 footer {
-  margin-bottom: 0.5rem;
+  margin: 2rem 0 0.5rem 0;
 }
 
 .top-footer {
@@ -183,7 +177,6 @@ footer {
   background-repeat: no-repeat;
 }
 
-
 .top-footer span {
   font-size: 2.2rem;
 }
@@ -194,13 +187,11 @@ footer {
   background-repeat: no-repeat;
 }
 
-
 .mac {
   background-image: url("../images/b-day-mac.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 .responsibility {
   background-image: url("../images/supplier-resp.jpg");
@@ -208,17 +199,12 @@ footer {
   background-repeat: no-repeat;
 }
 
-
 .float {
   float: left;
 }
 
 .clear {
   clear: left;
-}
-
-footer {
-  margin-top: 2rem;
 }
 
 .bottom-footer {
@@ -245,4 +231,3 @@ footer {
 .info small:hover {
   text-decoration: underline;
 }
-
