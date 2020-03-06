@@ -11,51 +11,53 @@ html {
 }
 
 nav {
+  background-image: url("../images/mountain2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15rem;
+}
+
+.top-nav {
   display: flex;
-  width: 100%;
-  height: 20vh;
-  justify-content: center;
-  align-items: center;
-}
-
-nav div {
-  border: 0.05rem solid #666;
-  background: grey;
-  background:
-    -webkit-linear-gradient(
-      top,
-      #474747 0%,
-      #2b2b2b 1%,
-      #474747 1%,
-      #474747 1%,
-      #595959 14%,
-      #666 36%,
-      #666 36%,
-      #666 41%,
-      #4c4c4c 58%,
-      #4c4c4c 58%,
-      #4c4c4c 58%,
-      #666 58%,
-      #666 58%,
-      #666 66%,
-      #4c4c4c 90%,
-      #4c4c4c 94%,
-      #4c4c4c 98%,
-      #666 99%,
-      #666 99%,
-      #666 100%,
-      #666 100%
-    );
-  color: #fff;
-  width: 12rem;
-  height: 5rem;
-}
-
-nav p {
   position: relative;
-  top: 35%;
-  left: 36%;
+  left: 10%;
+  top: 5rem;
+  width: 70%;
+  height: 4rem;
+  background-image: url("../images/nav-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+
+.apple, .menu-div {
+  border: 0.05rem solid #666;
+  color: #fff;
+  width: 10rem;
+}
+
+ .search {
+  width: 12rem;
+}
+
+.menu-div p {
+  position: relative;
+  top: 25%;
+  left: 34%;
   font-size: 1.4rem;
+}
+
+.menu-div:nth-child(8) p {
+  left: 20%;
+}
+
+.menu-div:nth-child(7) p {
+  left: 30%;
+}
+
+.menu-div:nth-child(6) p {
+  left: 20%;
 }
 
 .search div {
@@ -63,77 +65,75 @@ nav p {
   width: 80%;
   height: 50%;
   position: absolute;
-  top: 30%;
-  left: 10%;
+  top: 0;
+  left: 0;
   border-radius: 2rem;
   padding: 0.3rem 0 0 0.3rem;
 }
 
-nav div:hover {
+.search input {
+  width: 90%;
+  position: absolute;
+  background:inherit;
+  height: 2.5rem;
+  top: 0.8rem;
+  left: 1.2rem;
+  border-radius:1rem;
+  border-color: #696969;
+}
+
+.search i {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.8rem;
+  z-index: 9;
+  color: #fff;
+}
+
+.menu-div:hover {
   cursor: pointer;
-  background: -webkit-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666 25%, #474747 39%, #2c2c2c 50%, #111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  background: radial-gradient(circle at center,  #282C35, #696969);
+}
+
+.apple:hover {
+  cursor: pointer;
+  background: radial-gradient(circle at center,  #282C35, #696969);
 }
 
 .search {
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
   position: relative;
 }
 
-.apple {
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
 
 .apple img {
   position: relative;
   top: 20%;
-  left: 36%;
+  left: 5%;
+  width: 10rem;
 }
 
-.search:hover {
-  background:
-    -webkit-linear-gradient(
-      top,
-      #474747 0%,
-      #2b2b2b 1%,
-      #474747 1%,
-      #474747 1%,
-      #595959 14%,
-      #666 36%,
-      #666 36%,
-      #666 41%,
-      #4c4c4c 58%,
-      #4c4c4c 58%,
-      #4c4c4c 58%,
-      #666 58%,
-      #666 58%,
-      #666 66%,
-      #4c4c4c 90%,
-      #4c4c4c 94%,
-      #4c4c4c 98%,
-      #666 99%,
-      #666 99%,
-      #666 100%,
-      #666 100%
-    );
+.search input:focus {
+  background: #fff;
 }
+
 
 .search div:hover {
   cursor: text;
 }
 
-main {
+.mid-nav {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-  color: #36454f;
+  color: #fff;
+  padding-top: 8rem;
 }
 
 .top {
-  font-size: 8rem;
+  font-size: 5rem;
   margin-bottom: 1rem;
+  font-weight: 100;
 }
 
 .top:hover {
@@ -143,6 +143,7 @@ main {
 .middle {
   font-size: 3.5rem;
   text-align: center;
+  font-weight: 100;
 }
 
 .middle:hover {
@@ -151,6 +152,7 @@ main {
 
 .bottom {
   font-size: 2.5rem;
+  font-weight: 100;
 }
 
 .bottom:hover {
@@ -158,12 +160,6 @@ main {
   text-decoration: underline;
 }
 
-.nav-main-combo {
-  background-image: url("../images/silver-ipad.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  padding-bottom: 15rem;
-}
 
 footer {
   margin-bottom: 0.5rem;
@@ -172,9 +168,9 @@ footer {
 .top-footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 0.1rem;
+  column-gap: 0.3rem;
   grid-auto-rows: minmax(25rem, auto);
-  margin: 0.1rem 0 0 0.1rem;
+  margin: 0.2rem 0 0 0.1rem;
 }
 
 .top-footer div:hover {
@@ -182,56 +178,36 @@ footer {
 }
 
 .i-s {
-  background-image: url("https://images.pexels.com/photos/818043/pexels-photo-818043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-size: contain;
+  background-image: url("../images/i-s.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.i-s p {
-  text-align: center;
-  padding-top: 0.7rem;
-  font-weight: 500;
-  color: #ff69b4;
-}
 
 .top-footer span {
   font-size: 2.2rem;
 }
 
 .i-c {
-  background-image: url("https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-size: contain;
+  background-image: url("../images/i-c.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.i-c p {
-  text-align: center;
-  padding-top: 0.7rem;
-  color: #7fff00;
-}
 
 .mac {
-  background-image: url("https://images.pexels.com/photos/54283/pexels-photo-54283.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-size: contain;
+  background-image: url("../images/b-day-mac.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.mac p {
-  text-align: center;
-  padding-top: 0.7rem;
-}
 
 .responsibility {
-  background-image: url("https://images.pexels.com/photos/1569076/pexels-photo-1569076.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-size: contain;
+  background-image: url("../images/supplier-resp.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.responsibility p {
-  text-align: center;
-  padding-top: 0.7rem;
-  color: #fff;
-}
 
 .float {
   float: left;
@@ -239,6 +215,10 @@ footer {
 
 .clear {
   clear: left;
+}
+
+footer {
+  margin-top: 2rem;
 }
 
 .bottom-footer {
@@ -258,17 +238,11 @@ footer {
   left: 10%;
 }
 
-.info small,
-.terms {
-  color: #4183c4;
+.shop-details a:hover {
+  text-decoration: underline;
 }
 
 .info small:hover {
-  cursor: pointer;
   text-decoration: underline;
 }
 
-.terms:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}

@@ -1,6 +1,11 @@
 # Appl Clone Page
 This is a clone of the Apple Page.
 
+# Short description
+This is a clone of the apple website (https://web.archive.org/web/20140301004610/http://www.apple.com/). I created it using flex, css grid and 
+float css values. 
+The project is a Microverse challenge to improve and test my skills building backgrounds with images and gradients.
+
 
 ![screenshot](images/screenshot.png)
 
