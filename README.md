@@ -7,7 +7,7 @@ float css values.
 The project is a Microverse challenge to improve and test my skills building backgrounds with images and gradients.
 
 
-![screenshot](images/screenshot.png)
+![screenshot](images/apple-screenshot.png)
 
 ## Built with
 HTML and CSS
