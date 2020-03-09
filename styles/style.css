@@ -38,7 +38,6 @@ nav {
   border-radius: 0.5rem;
 }
 
-
 .menu-div {
   border: 0.05rem solid #666;
   color: #fff;
@@ -61,130 +60,33 @@ nav {
   color: #fff;
 }
 
-/* .search { */
+.menu-div:hover {
+  cursor: pointer;
+  background: radial-gradient(circle at center, #282c35, #696969);
+}
 
-/*  width: 14rem; */
+.menu-div a {
+  color: #fff;
+}
 
-/*  position: relative; */
-
-/* } */
-
-/* .menu-div p { */
-
-/*  position: relative; */
-
-/*  top: 25%; */
-
-/*  left: 34%; */
-
-/*  font-size: 1.4rem; */
-
-/* } */
-
-/* .menu-div:nth-child(8) p { */
-
-/*  left: 20%; */
-
-/* } */
-
-/* .menu-div:nth-child(7) p { */
-
-/*  left: 30%; */
-
-/* } */
-
-/* .menu-div:nth-child(6) p { */
-
-/*  left: 20%; */
-
-/* } */
-
-/* .search div { */
-
-/*  border: 0.07rem solid #666; */
-
-/*  width: 80%; */
-
-/*  height: 50%; */
-
-/*  position: absolute; */
-
-/*  top: 0; */
-
-/*  left: 0; */
-
-/*  border-radius: 2rem; */
-
-/*  padding: 0.3rem 0 0 0.3rem; */
-
-/* } */
-
-/* .search input { */
-
-/*  width: 10rem; */
-
-/*  position: absolute; */
-
-/*  background: inherit; */
-
-/*  height: 2.5rem; */
-
-/*  top: 0.8rem; */
-
-/*  left: 1.2rem; */
-
-/*  border-radius: 1rem; */
-
-/*  border-color: #696969; */
-
-/* } */
-
-/* .search i { */
-
-/*  position: absolute; */
-
-/*  top: 1.2rem; */
-
-/*  left: 1.8rem; */
-
-/*  z-index: 9; */
-
-/*  color: #fff; */
-
-/* } */
-
-/* .menu-div:hover { */
-
-/*  cursor: pointer; */
-
-/*  background: radial-gradient(circle at center, #282c35, #696969); */
-
-/* } */
-
-/* .apple:hover { */
-
-/*  cursor: pointer; */
-
-/*  background: radial-gradient(circle at center, #282c35, #696969); */
-
-/* } */
+.apple:hover {
+  cursor: pointer;
+  background: radial-gradient(circle at center, #282c35, #696969);
+}
 
 .apple img {
   width: 10rem;
   padding: 0.8rem 0;
 }
 
-/* .search input:focus { */
+.search input:focus {
+  opacity: 1;
+  width: 15rem;
+}
 
-/*  background: #fff; */
-
-/* } */
-
-/* .search div:hover { */
-
-/*  cursor: text; */
-
-/* } */
+.search input:hover {
+  cursor: text;
+}
 
 /* Main */
 .mid-nav {
@@ -193,9 +95,9 @@ nav {
   width: 100%;
   align-items: center;
   color: #fff;
-  padding-top: 8rem;
   position: absolute;
   top: 4rem;
+  margin-top: 8rem;
 }
 
 .top {
