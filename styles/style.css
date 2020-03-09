@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 144rem;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Navbar */
+
+nav {
+  background-image: url("../images/mountain2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40rem;
+  position: relative;
+}
+
+.top-nav {
+  display: flex;
+  height: 3.6rem;
+  position: absolute;
+  left: 20rem;
+  top: 5rem;
+  background-image: url("../images/nav-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.menu-div {
+  border: 0.05rem solid #666;
+  color: #fff;
+  width: 10rem;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+}
+
+.search input {
+  width: 13rem;
+  margin-right: 1rem;
+  margin-top: 0.6rem;
+  opacity: 0.2;
+  border-radius: 1rem;
+}
+
+.search i {
+  position: relative;
+  left: 3rem;
+  top: 0.1rem;
+  color: #fff;
+}
+
+.menu-div:hover {
+  cursor: pointer;
+  background: radial-gradient(circle at center, #282c35, #696969);
+}
+
+.menu-div a {
+  color: #fff;
+}
+
+.apple:hover {
+  cursor: pointer;
+  background: radial-gradient(circle at center, #282c35, #696969);
+}
+
+.apple img {
+  width: 10rem;
+  padding: 0.8rem 0;
+}
+
+.search input:focus {
+  opacity: 1;
+  width: 15rem;
+}
+
+.search input:hover {
+  cursor: text;
+}
+
+/* Main */
+.mid-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: 4rem;
+  margin-top: 8rem;
+}
+
+.top {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+.top:hover {
+  cursor: pointer;
+}
+
+.middle {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+
+.middle:hover {
+  cursor: pointer;
+}
+
+.bottom {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.bottom:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer {
+  margin: 2rem 0 0.5rem 0;
+}
+
+.top-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.3rem;
+  grid-auto-rows: minmax(25rem, auto);
+  margin: 0.2rem 0 0 0.1rem;
+}
+
+.top-footer div:hover {
+  cursor: pointer;
+}
+
+.i-s {
+  background-image: url("../images/i-s2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.i-c {
+  background-image: url("../images/i-c2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mac {
+  background-image: url("../images/b-day-mac2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.responsibility {
+  background-image: url("../images/supplier-resp2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.float {
+  float: left;
+}
+
+.clear {
+  clear: left;
+}
+
+.bottom-footer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.info {
+  position: absolute;
+  right: 15%;
+  top: 0;
+}
+
+.shop-details {
+  position: inherit;
+  left: 10%;
+}
+
+.shop-details a:hover {
+  text-decoration: underline;
+}
+
+.info small:hover {
+  text-decoration: underline;
+}
