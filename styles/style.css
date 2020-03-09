@@ -2,121 +2,191 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  max-width: 144rem;
+}
+
+body {
+  position: relative;
   margin: 0 auto;
-  max-width: 99%;
 }
 
 html {
   font-size: 62.5%;
 }
 
+/* Navbar */
+
 nav {
   background-image: url("../images/mountain2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 40rem;
+  position: relative;
 }
 
 .top-nav {
   display: flex;
-  position: relative;
-  left: 10%;
+  height: 3.6rem;
+  position: absolute;
+  left: 20rem;
   top: 5rem;
-  width: 70%;
-  height: 4rem;
   background-image: url("../images/nav-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.5rem;
 }
 
-.apple,
+
 .menu-div {
   border: 0.05rem solid #666;
   color: #fff;
   width: 10rem;
-}
-
-.search {
-  width: 12rem;
-  position: relative;
-}
-
-.menu-div p {
-  position: relative;
-  top: 25%;
-  left: 34%;
-  font-size: 1.4rem;
-}
-
-.menu-div:nth-child(8) p {
-  left: 20%;
-}
-
-.menu-div:nth-child(7) p {
-  left: 30%;
-}
-
-.menu-div:nth-child(6) p {
-  left: 20%;
-}
-
-.search div {
-  border: 0.07rem solid #666;
-  width: 80%;
-  height: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 2rem;
-  padding: 0.3rem 0 0 0.3rem;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
 }
 
 .search input {
-  width: 90%;
-  position: absolute;
-  background: inherit;
-  height: 2.5rem;
-  top: 0.8rem;
-  left: 1.2rem;
+  width: 13rem;
+  margin-right: 1rem;
+  margin-top: 0.6rem;
+  opacity: 0.2;
   border-radius: 1rem;
-  border-color: #696969;
 }
 
 .search i {
-  position: absolute;
-  top: 1.2rem;
-  left: 1.8rem;
-  z-index: 9;
+  position: relative;
+  left: 3rem;
+  top: 0.1rem;
   color: #fff;
 }
 
-.menu-div:hover {
-  cursor: pointer;
-  background: radial-gradient(circle at center, #282c35, #696969);
-}
+/* .search { */
 
-.apple:hover {
-  cursor: pointer;
-  background: radial-gradient(circle at center, #282c35, #696969);
-}
+/*  width: 14rem; */
+
+/*  position: relative; */
+
+/* } */
+
+/* .menu-div p { */
+
+/*  position: relative; */
+
+/*  top: 25%; */
+
+/*  left: 34%; */
+
+/*  font-size: 1.4rem; */
+
+/* } */
+
+/* .menu-div:nth-child(8) p { */
+
+/*  left: 20%; */
+
+/* } */
+
+/* .menu-div:nth-child(7) p { */
+
+/*  left: 30%; */
+
+/* } */
+
+/* .menu-div:nth-child(6) p { */
+
+/*  left: 20%; */
+
+/* } */
+
+/* .search div { */
+
+/*  border: 0.07rem solid #666; */
+
+/*  width: 80%; */
+
+/*  height: 50%; */
+
+/*  position: absolute; */
+
+/*  top: 0; */
+
+/*  left: 0; */
+
+/*  border-radius: 2rem; */
+
+/*  padding: 0.3rem 0 0 0.3rem; */
+
+/* } */
+
+/* .search input { */
+
+/*  width: 10rem; */
+
+/*  position: absolute; */
+
+/*  background: inherit; */
+
+/*  height: 2.5rem; */
+
+/*  top: 0.8rem; */
+
+/*  left: 1.2rem; */
+
+/*  border-radius: 1rem; */
+
+/*  border-color: #696969; */
+
+/* } */
+
+/* .search i { */
+
+/*  position: absolute; */
+
+/*  top: 1.2rem; */
+
+/*  left: 1.8rem; */
+
+/*  z-index: 9; */
+
+/*  color: #fff; */
+
+/* } */
+
+/* .menu-div:hover { */
+
+/*  cursor: pointer; */
+
+/*  background: radial-gradient(circle at center, #282c35, #696969); */
+
+/* } */
+
+/* .apple:hover { */
+
+/*  cursor: pointer; */
+
+/*  background: radial-gradient(circle at center, #282c35, #696969); */
+
+/* } */
 
 .apple img {
-  position: relative;
-  top: 20%;
-  left: 5%;
   width: 10rem;
+  padding: 0.8rem 0;
 }
 
-.search input:focus {
-  background: #fff;
-}
+/* .search input:focus { */
 
-.search div:hover {
-  cursor: text;
-}
+/*  background: #fff; */
 
+/* } */
+
+/* .search div:hover { */
+
+/*  cursor: text; */
+
+/* } */
+
+/* Main */
 .mid-nav {
   display: flex;
   flex-direction: column;
@@ -175,29 +245,25 @@ footer {
 }
 
 .i-s {
-  background-image: url("../images/i-s.jpg");
+  background-image: url("../images/i-s2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.top-footer span {
-  font-size: 2.2rem;
-}
-
 .i-c {
-  background-image: url("../images/i-c.jpg");
+  background-image: url("../images/i-c2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .mac {
-  background-image: url("../images/b-day-mac.jpg");
+  background-image: url("../images/b-day-mac2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .responsibility {
-  background-image: url("../images/supplier-resp.jpg");
+  background-image: url("../images/supplier-resp2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
